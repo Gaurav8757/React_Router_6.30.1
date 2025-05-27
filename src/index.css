@@ -56,6 +56,15 @@ button:active {
   transform: translateY(1px);
 }
 
+#contact {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin: auto;
+  max-width: 50rem;
+}
+
 #contact h1 {
   display: flex;
   align-items: flex-start;

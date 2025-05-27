@@ -10,8 +10,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router}>
       <App />
-
-    </RouterProvider>
     <ToastContainer
       position="top-right"
       autoClose={5000}
@@ -25,5 +23,6 @@ createRoot(document.getElementById('root')).render(
       theme="light"
 
     />
+     </RouterProvider>
   </StrictMode>,
 )

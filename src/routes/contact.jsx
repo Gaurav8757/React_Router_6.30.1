@@ -5,8 +5,8 @@ export default function Contact() {
     first: "Gaurav",
     last: "Kumar",
     avatar: "https://avatars.githubusercontent.com/u/94515205?v=4&size=200x200",
-    github: "https://github.com/Gaurav8757",
-    notes: "Gaurav's Github Accounts",
+    github: "Gaurav8757",
+    notes: "Gaurav's Github Account",
     favorite: true,
   };
 
@@ -16,8 +16,7 @@ export default function Contact() {
         <img
           key={contact.avatar}
           src={
-            contact.avatar ||
-            `https://robohash.org/${contact.id}.png?size=200x200`
+            contact.avatar
           }
         />
       </div>
